@@ -1,0 +1,81 @@
+body {
+    background-image: url('http://pictxel.com/wp-content/uploads/2014/04/purple-flowers.jpg');
+    background-size: cover;
+    /*background-image: url("../images/creditbg.jpg")*/
+}
+
+#current-link{
+    color: yellow;
+    text-decoration: underline;
+}
+
+
+#menu1 {
+    margin-left: 400px;
+}
+#menu2 {
+    margin-left: 200px;
+}
+#menu3 {
+    margin: 0px;
+}
+
+
+h1 {
+    margin-right: 200px;    
+}
+
+div {
+    border-style: solid;
+    border-width: 0px;
+    border-color: green;
+    padding: 30px;
+}
+
+.list-group-item {
+    border: 0;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+header {
+    height: 200px;;
+    top: 0px;
+    margin: 0;
+    left: 0px;
+    margin-left: 0;
+    background-image: url("../images/lawnbg.jpg");
+    background-image: cover;
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+    text-align: center;
+
+    
+}
+ 
+ #About {
+    float: right; 
+    margin-right: 100px;   
+    
+    
+ }
+
+#Home {
+    width: 200px;
+    float: left;
+    margin-left: 100px;    
+   
+ }
+ #Contact {
+    width: 200px;
+    margin:auto;
+    display: block;
+    
+ }
+
+ .a ul li a{
+    color: red;
+ }
+
+

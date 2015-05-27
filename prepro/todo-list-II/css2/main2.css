@@ -1,0 +1,28 @@
+@import "reset.css";
+@import "normalize.css";
+
+@import url(http://fonts.googleapis.com/css?family=Amaranth);
+
+
+body {
+   font: normal 18px 'Amaranth', sans-serif;
+   color: #9597DB;
+   /*background-image: url('http://vignette1.wikia.nocookie.net/survivor-org/images/a/a7/Tumblr_static_purple-tones.jpg/revision/latest?cb=20140429043337');
+   */
+   background-color: purple;
+   background-size: cover;
+ }
+
+.wrap {
+	width: 500px;
+	margin: 0 auto;
+}
+
+.task-list{
+	width: 88%;
+	min-height: 400px;
+	background: #fff;
+	box-shadow: 2px 2px 0px #ddd;
+	margin-top: 40px;
+	padding: 22px 6%;
+}

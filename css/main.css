@@ -1,4 +1,5 @@
-body{
+@import url(http://fonts.googleapis.com/css?family=Nunito);
+#index{
 	background-image: url('https://download.unsplash.com/photo-1423683249427-8ca22bd873e0');
 	background-size: 100%;
 	background-position: center;
@@ -25,7 +26,7 @@ h1{
 	margin-bottom: 5px;
 	font-family: 'Lobster', cursive;
 }
-p {
+#slogan {
 	text-align: center;
 	color: white;
 	font-size: 22pt;
@@ -52,7 +53,7 @@ hr{
 	background-color: #3c4543;
 }
 
-ul{
+#ilink{
 	position: fixed;
 	 margin-top: 368px;
 	 margin-left: 40px;
@@ -82,4 +83,87 @@ li{
 	border-radius: 5px;
 	opacity: 1.9;
 	margin: 10px;
+}
+
+br{
+	font-size: 5px;
+}
+footer{
+	margin-top: 300px;
+	color: gray;
+	font-family: 'Rochester', cursive;
+}
+/*Projects Page*/
+.project{
+	/*background-color: #476B6B;*/
+	/*background-color: #004C54;*/
+	background-image: url('https://download.unsplash.com/photo-1428908728789-d2de25dbd4e2');
+	color: white;
+	background-size: 100%;
+	background-position: center;
+	background-attachment: fixed;
+}
+#proB{
+	background-color: #FFE0C2;
+}
+#nope2{
+	display: inline;
+	font-family: 'Slabo 27px', serif;
+	color: black;
+	padding: 18px;
+	/*background-color: #476B6B;*/
+	background-color: #FFE0C2;
+	/*background-color: #004C54;*/
+	border-radius: 5px;
+	opacity: 1.9;
+	margin: 10px;
+}
+#plink{
+	/*position: fixed;*/
+	 margin-top: 30px;
+	 font-family: 'Nunito', sans-serif;
+	 /*margin-left: 40px;*/
+}
+#pro{
+	background: gray;
+	/*opacity: 0.3;*/
+	border-radius: 5px;
+	margin: 30px;
+}
+#abtme{
+	text-indent: 50px;
+	font-size: 22px;
+	color: white;
+	text-align: left;
+	margin: 42px;
+}
+#nope3{
+	display: inline;
+	font-family: 'Nunito', sans-serif;
+	color: black;
+	padding: 18px;
+	/*background-color: #476B6B;*/
+	/*background-color: #FFE0C2;*/
+	background-color: #004C54;
+	border-radius: 5px;
+	opacity: 1.9;
+	margin: 172px;
+}
+#imgs{
+	margin-top: 40px;
+ 	margin-bottom: 20px;
+}
+/*TESTING RANDOM ASS CODE*/
+#one{
+	width: 410px;
+	float: left;
+	margin-left: 235px;
+}
+#two{
+	width: 410px;
+	float: right;
+	margin-right: 200px;
+}
+#parayafs{
+	font-family: 'Nunito', sans-serif;
 }

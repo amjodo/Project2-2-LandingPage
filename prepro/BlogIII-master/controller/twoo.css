@@ -1,0 +1,16 @@
+html{
+	background-image: url("http://pocketrangerblog.com/wp-content/uploads/2013/09/creepy-forest-13464.jpg");
+    color: white;
+	font-family: 'Poiret One', cursive;
+	text-align: center;
+	-webkit-background-size: cover; 
+	-moz-background-size: cover; 
+	-o-background-size: cover; 
+	background-size: cover;
+}
+
+p{
+	background-color: white;
+	opacity: 0.4;
+	color: black;
+}
