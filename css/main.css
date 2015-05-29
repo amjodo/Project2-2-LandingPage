@@ -1,15 +1,20 @@
 @import url(http://fonts.googleapis.com/css?family=Nunito);
+/*-------------------------------------------------------------------------------------------------------------*/
+
+/*FIRST PAGE: INDEX.HTML*/
+
+/*-------------------------------------------------------------------------------------------------------------*/
+div{
+	text-align: center;
+}
+/*-------------------------------------------------------------------------------------------------------------*/
+/*LOS ANGELES CALIFRONIA PORTION*/
 #index{
 	background-image: url('https://download.unsplash.com/photo-1423683249427-8ca22bd873e0');
 	background-size: 100%;
 	background-position: center;
 	background-attachment: fixed;
 }
-
-div{
-	text-align: center;
-}
-
 #la{
 	color: white;
 	text-align: center;
@@ -17,7 +22,14 @@ div{
 	margin-top: 40px;
 	font-family: 'Slabo 27px', serif;
 }
-
+hr{
+	width: 12%;
+	border: 0;
+	border-top: 1px solid #FFF;
+	display: inline-block;
+}
+/*----------------------------------------------------------------------------------------------------------*/
+/*AMBER DOUGLAS PORTION*/
 h1{
 	margin-top: 2px;
 	text-align: center;
@@ -26,33 +38,27 @@ h1{
 	margin-bottom: 5px;
 	font-family: 'Lobster', cursive;
 }
+/*----------------------------------------------------------------------------------------------------------*/
+/*"YOUNG UPCOMING DEVELOPER PORTION*/
 #slogan {
 	text-align: center;
 	color: white;
 	font-size: 22pt;
 	font-family: 'Slabo 27px', serif;
 }
-
-hr{
-	width: 12%;
-	border: 0;
-	border-top: 1px solid #FFF;
-	display: inline-block;
-}
+/*----------------------------------------------------------------------------------------------------------*/
 /*Link Style*/
+#header{
+	position: relative;
+	top: -10px;
+	background-color: #3c4543;
+}
 #navbar{
 	position: fixed;
 	top: 10px;
 	left: 50%;
 	margin-left: -245px;
 }
-
-#header{
-	position: relative;
-	top: -10px;
-	background-color: #3c4543;
-}
-
 #ilink{
 	position: fixed;
 	 margin-top: 368px;
@@ -61,12 +67,7 @@ hr{
 
 li{
 	display: inline;
-	/*font-family: 'Roboto Slab', serif;*/
 	color: white;
-	/*padding: 15px;*/
-	/*background-color: #476B6B;*/
-	/*background-color: #FFE0C2;*/
-	/*background-color: #004C54;*/
 	border-radius: 5px;
 	opacity: 0.9;
 	margin: 10px;
@@ -82,81 +83,48 @@ li{
 	opacity: 1.9;
 	margin: 10px;
 }
-
-br{
-	font-size: 5px;
-}
 footer{
 	margin-top: 300px;
 	color: gray;
 	font-family: 'Rochester', cursive;
 }
-/*Projects Page*/
+/*----------------------------------------------------------------------------------------------------------
+
+/*2ND PAGE: Projects Page*/
+
+/*----------------------------------------------------------------------------------------------------------*/
+
+/*LINKS AT THE TOP OF THE PAGE*/
 .project{
-	/*background-color: #476B6B;*/
-	/*background-color: #004C54;*/
 	background-image: url('https://download.unsplash.com/photo-1428908728789-d2de25dbd4e2');
 	color: white;
 	background-size: 100%;
 	background-position: center;
 	background-attachment: fixed;
 }
-#proB{
-	background-color: #FFE0C2;
+#plink{
+	 margin-top: 30px;
+	 font-family: 'Nunito', sans-serif;
 }
 #nope2{
 	display: inline;
 	font-family: 'Slabo 27px', serif;
 	color: black;
 	padding: 18px;
-	/*background-color: #476B6B;*/
 	background-color: #FFE0C2;
-	/*background-color: #004C54;*/
 	border-radius: 5px;
 	opacity: 1.9;
 	margin: 10px;
 }
-#plink{
-	/*position: fixed;*/
-	 margin-top: 30px;
-	 font-family: 'Nunito', sans-serif;
-	 /*margin-left: 40px;*/
-}
-#pro{
-	background: gray;
-	/*opacity: 0.3;*/
-	border-radius: 5px;
-	margin: 30px;
-}
-#abtme{
-	text-indent: 50px;
-	font-size: 22px;
-	color: white;
-	text-align: left;
-	margin: 42px;
-}
-#nope3{
-	font-family: 'Nunito', sans-serif;
-	color: black;
-	margin: 172px;
-	text-align: center;
-}
-#nope4{
-	font-family: 'Nunito', sans-serif;
-	color: black;
-	margin-right: 215px;
-  	margin-left: 160px;
-	text-align: center;
-}
+/*IMAGES OF FIRST TWO PREVIOUS WEBSITES*/
 #imgs{
 	margin-top: 40px;
  	margin-bottom: 20px;
 }
-#imgs2{
-	margin-top: 20px;
- 	margin-bottom: 20px;
+/*THE STYLE FOR THE PARAGRAPHS*/
+#parayafs{
+	font-family: 'Nunito', sans-serif;
 }
-/*TESTING RANDOM ASS CODE*/
 #one{
 	width: 400px;
 	float: left;
@@ -169,6 +137,21 @@ footer{
 	margin-right: 240px;
 	color: black;
 }
-#parayafs{
+/*THE STYLE FOR THE FOUR LINKS FOR THE PREVIOUS PROJECTS*/
+#nope3{
 	font-family: 'Nunito', sans-serif;
+	color: black;
+	margin-right: 215px;
+  	margin-left: 160px;
+	text-align: center;
+}
+/*SECOND SET OF IMAGES ON THE PROJECTS PAGE*/
+#imgs2{
+	margin-top: 20px;
+ 	margin-bottom: 20px;
+}
+
+/*MOBILE RESPONSIVE TYPE SHIT*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) { 
+	
 }
